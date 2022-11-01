@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "creatomate": "^1.0.0"
+  }
+}

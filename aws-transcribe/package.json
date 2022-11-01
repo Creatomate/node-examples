@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.198.0",
+    "@aws-sdk/client-transcribe": "^3.197.0",
+    "promise-retry": "^2.0.1",
+    "srtparsejs": "^1.0.7"
+  }
+}

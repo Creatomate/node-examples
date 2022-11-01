@@ -1,0 +1,305 @@
+{
+  "output_format": "mp4",
+  "duration": "16.028 s",
+  "width": 1080,
+  "height": 1080,
+  "snapshot_time": 5.04,
+  "fill_color": [
+    {
+      "offset": "0%",
+      "color": "rgba(84,160,255,1)"
+    },
+    {
+      "offset": "100%",
+      "color": "rgba(56,121,203,1)"
+    }
+  ],
+  "fill_mode": "radial",
+  "fill_y0": "50%",
+  "elements": [
+    {
+      "id": "9d33fa62-c288-4707-bb39-3cc58b333378",
+      "type": "composition",
+      "track": 1,
+      "time": "0.41 s",
+      "duration": "3.59 s",
+      "elements": [
+        {
+          "id": "93980567-4634-4a87-bdbf-337147b1c01a",
+          "name": "Title",
+          "type": "text",
+          "track": 1,
+          "time": "0 s",
+          "dynamic": true,
+          "y": "45.3259%",
+          "width": "92.5156%",
+          "height": "24.2801%",
+          "z_rotation": "-5.0717°",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1.55 s",
+              "easing": "cubic-bezier(0, 1.52, 0.27, 0.98)",
+              "type": "scale",
+              "x_anchor": "50%",
+              "y_anchor": "50%"
+            },
+            {
+              "time": "start",
+              "duration": "1.55 s",
+              "easing": "cubic-bezier(0, 1.52, 0.27, 0.98)",
+              "type": "spin",
+              "rotation": "360°"
+            }
+          ],
+          "text": "Insert your news headline or announcement here",
+          "font_family": "Roboto Slab",
+          "font_weight": "500",
+          "background_color": "rgba(255,255,255,1)",
+          "background_x_padding": "60%",
+          "background_align_threshold": "100%"
+        }
+      ]
+    },
+    {
+      "id": "71ad51d8-78b5-430e-8500-d9c4bee62de2",
+      "type": "composition",
+      "track": 1,
+      "time": "3 s",
+      "duration": "7 s",
+      "y": "40.9892%",
+      "height": "81.9786%",
+      "animations": [
+        {
+          "time": "start",
+          "duration": "1 s",
+          "transition": true,
+          "type": "flip",
+          "x_rotation": "0°",
+          "y_rotation": "-180°"
+        },
+        {
+          "time": "0.5 s",
+          "duration": "0.25 s",
+          "transition": true,
+          "type": "fade",
+          "track": 0,
+          "property": "animations"
+        }
+      ],
+      "elements": [
+        {
+          "id": "6ed888cf-20b0-46c2-aa93-14c1f8df29ba",
+          "name": "Text 1",
+          "type": "text",
+          "track": 1,
+          "time": "0.5 s",
+          "dynamic": true,
+          "width": "100%",
+          "height": "100%",
+          "x_padding": "3.9 vw",
+          "y_padding": "3.9 vh",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "rgba(255,255,255,1)",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2.5 s",
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "start_opacity": "20%"
+            },
+            {
+              "time": "0 s",
+              "duration": "0.25 s",
+              "transition": true,
+              "type": "fade",
+              "track": 0,
+              "property": "animations"
+            }
+          ],
+          "text": "Add a small snippet from your article here. This is just an example text to show how this template can be used.",
+          "font_family": "Roboto Slab",
+          "font_weight": "500",
+          "font_size_minimum": "1 vmax",
+          "font_size_maximum": "6.8 vmin"
+        }
+      ]
+    },
+    {
+      "id": "c57b5794-66d8-4ee9-8686-ee780eea53dc",
+      "type": "composition",
+      "track": 1,
+      "time": "9 s",
+      "duration": "5.5 s",
+      "y": "40.9892%",
+      "height": "81.9785%",
+      "animations": [
+        {
+          "time": "start",
+          "duration": "1 s",
+          "transition": true,
+          "type": "slide",
+          "direction": "180°"
+        },
+        {
+          "time": "end",
+          "duration": "0.644 s",
+          "easing": "quadratic-out",
+          "reversed": true,
+          "type": "slide",
+          "direction": "270°"
+        }
+      ],
+      "elements": [
+        {
+          "id": "2722d910-1fe9-4181-9ac1-b9d780e6cc75",
+          "name": "Text 2",
+          "type": "text",
+          "track": 1,
+          "time": "0.5 s",
+          "dynamic": true,
+          "width": "100%",
+          "height": "100%",
+          "x_padding": "3.9 vw",
+          "y_padding": "3.9 vh",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "rgba(255,255,255,1)",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2.373 s",
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "track": 0,
+              "overlap": "0%",
+              "property": "animations",
+              "start_opacity": "20%"
+            },
+            {
+              "time": "start",
+              "duration": "0.25 s",
+              "transition": true,
+              "type": "fade"
+            }
+          ],
+          "text": "Continuation of the story. You can enter an call to action here, for example.",
+          "font_family": "Roboto Slab",
+          "font_weight": "500",
+          "font_size_minimum": "1 vmax",
+          "font_size_maximum": "6.8 vmin"
+        }
+      ]
+    },
+    {
+      "id": "326b1514-6981-4238-b679-dded26a6ed41",
+      "type": "composition",
+      "track": 3,
+      "time": "0.41 s",
+      "y": [
+        {
+          "time": "13.446 s",
+          "value": "87.8486%"
+        },
+        {
+          "time": "14.09 s",
+          "value": "50%"
+        }
+      ],
+      "height": "24.3028%",
+      "x_scale": [
+        {
+          "time": "13.446 s",
+          "value": "100%"
+        },
+        {
+          "time": "14.09 s",
+          "value": "123%"
+        }
+      ],
+      "y_scale": [
+        {
+          "time": "13.446 s",
+          "value": "100%"
+        },
+        {
+          "time": "14.09 s",
+          "value": "123%"
+        }
+      ],
+      "animations": [
+        {
+          "time": "0 s",
+          "duration": "1 s",
+          "transition": true,
+          "type": "fade",
+          "track": 0,
+          "property": "animations"
+        }
+      ],
+      "elements": [
+        {
+          "id": "28e722c4-5c83-481e-b536-b74d340db1dd",
+          "name": "Call to action",
+          "type": "text",
+          "track": 1,
+          "time": "0 s",
+          "dynamic": true,
+          "y": "33.7684%",
+          "width": "52.7624%",
+          "height": "27.4653%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": "rgba(0,0,0,1)",
+          "text": "Read full article",
+          "font_family": "Roboto Slab",
+          "font_weight": "600"
+        },
+        {
+          "id": "c11047b6-9c98-449c-869a-1613dc86b520",
+          "name": "Website",
+          "type": "text",
+          "track": 2,
+          "time": "0 s",
+          "dynamic": true,
+          "y": "64.7144%",
+          "width": "52.7624%",
+          "height": "30.4998%",
+          "x_alignment": "50%",
+          "fill_color": "rgba(255,255,255,1)",
+          "text": "website.com",
+          "font_weight": "700"
+        }
+      ]
+    },
+    {
+      "id": "46de0af7-0f0f-4b3b-b340-8123fd1e9a53",
+      "name": "Progress",
+      "type": "shape",
+      "track": 4,
+      "y": "0.9319%",
+      "width": "100%",
+      "height": "1.8639%",
+      "x_anchor": "50%",
+      "y_anchor": "50%",
+      "fill_color": "rgba(255,255,255,0.52)",
+      "animations": [
+        {
+          "easing": "quadratic-out",
+          "type": "wipe",
+          "fade": false,
+          "x_anchor": "0%"
+        }
+      ],
+      "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+    }
+  ]
+}
