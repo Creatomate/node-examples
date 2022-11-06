@@ -28,7 +28,7 @@ const source = new Creatomate.Source({
       yAnchor: '0%',
       fillColor: 'rgba(224,241,59,0.88)',
       animations: [
-        new Creatomate.WipeAnimation({
+        new Creatomate.Wipe({
           xAnchor: '0%',
           fade: false,
           easing: 'linear',

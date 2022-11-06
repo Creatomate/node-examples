@@ -20,14 +20,14 @@ const source = new Creatomate.Source({
       // Simulate camera shake
       animations: [
         // Random horizontal shake
-        new Creatomate.ShakeAnimation({
+        new Creatomate.Shake({
           distance: '0.5%',
           frequency: '1.5 Hz',
           randomness: '100%',
           rampDuration: '0%',
         }),
         // Random vertical shake
-        new Creatomate.ShakeAnimation({
+        new Creatomate.Shake({
           direction: '90°',
           distance: '0.5%',
           frequency: '1.5 Hz',
@@ -35,7 +35,7 @@ const source = new Creatomate.Source({
           rampDuration: '0%',
         }),
         // Random rotational wiggle
-        new Creatomate.WiggleAnimation({
+        new Creatomate.Wiggle({
           frequency: '1 Hz',
           randomness: '100%',
           zRotation: '0.2°',
@@ -85,7 +85,7 @@ const source = new Creatomate.Source({
             new Creatomate.Composition({
               track: 1,
 
-              transition: new Creatomate.CircularWipeAnimation({
+              transition: new Creatomate.CircularWipe({
                 duration: 1,
               }),
 

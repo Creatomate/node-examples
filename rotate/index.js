@@ -71,7 +71,7 @@ const source = new Creatomate.Source({
         new Creatomate.Keyframe(360, 'end'),
       ],
 
-      // Don't render the backfade
+      // Don't render the backface
       backfaceVisible: false,
     }),
 

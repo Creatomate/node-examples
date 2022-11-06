@@ -16,13 +16,11 @@ const source = new Creatomate.Source({
   elements: [
 
     new Creatomate.Video({
-      track: 1,
       source: 'https://creatomate-static.s3.amazonaws.com/demo/video5.mp4',
       colorOverlay: 'rgba(0,0,0,0.3)',
     }),
 
     new Creatomate.Video({
-      track: 2,
       source: 'https://creatomate-static.s3.amazonaws.com/demo/video5.mp4',
       xAnchor: '0%',
       yAnchor: '0%',

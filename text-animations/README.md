@@ -17,7 +17,7 @@ node index.js YOUR_API_KEY
 
 ## Example output
 
-https://user-images.githubusercontent.com/44575638/199057058-0bea4a98-743c-4796-816c-00fc90fb0e0b.mp4
+https://user-images.githubusercontent.com/44575638/200171189-eb18683d-7f91-4962-a43c-ad01688c481d.mp4
 
 ## Related examples
 

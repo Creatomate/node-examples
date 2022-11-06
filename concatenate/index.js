@@ -25,7 +25,7 @@ const source = new Creatomate.Source({
       source: 'https://creatomate-static.s3.amazonaws.com/demo/video2.mp4',
 
       // Add a transition like this:
-      // transition: new Creatomate.FadeAnimation({ duration: 1 }),
+      // transition: new Creatomate.Fade({ duration: 1 }),
     }),
 
   ],

@@ -88,7 +88,7 @@ async function run() {
         yAnchor: '0%',
         fillColor: 'rgba(255,255,255,0.8)',
         animations: [
-          new Creatomate.WipeAnimation({
+          new Creatomate.Wipe({
             xAnchor: '0%',
             fade: false,
             easing: 'linear',

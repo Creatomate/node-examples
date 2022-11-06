@@ -22,7 +22,7 @@ const source = new Creatomate.Source({
       duration: 5,
       source: 'https://creatomate-static.s3.amazonaws.com/demo/image1.jpg',
       animations: [
-        new Creatomate.PanCenterAnimation({
+        new Creatomate.PanCenter({
           startScale: '100%',
           endScale: '120%',
           easing: 'linear',
@@ -36,13 +36,13 @@ const source = new Creatomate.Source({
       duration: 5,
       source: 'https://creatomate-static.s3.amazonaws.com/demo/image2.jpg',
       animations: [
-        new Creatomate.PanLeftWithZoomAnimation({
+        new Creatomate.PanLeftWithZoom({
           startScale: '100%',
           endScale: '120%',
           easing: 'linear',
         }),
       ],
-      transition: new Creatomate.FadeAnimation(),
+      transition: new Creatomate.Fade(),
     }),
 
     // Image 3
@@ -51,13 +51,13 @@ const source = new Creatomate.Source({
       duration: 5,
       source: 'https://creatomate-static.s3.amazonaws.com/demo/image3.jpg',
       animations: [
-        new Creatomate.PanRightWithZoomAnimation({
+        new Creatomate.PanRightWithZoom({
           startScale: '100%',
           endScale: '120%',
           easing: 'linear',
         }),
       ],
-      transition: new Creatomate.FadeAnimation(),
+      transition: new Creatomate.Fade(),
     }),
 
     // Background music

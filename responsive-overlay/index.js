@@ -35,7 +35,7 @@ const source = new Creatomate.Source({
           clip: true,
           source: 'https://creatomate-static.s3.amazonaws.com/demo/city1.jpg',
           animations: [
-            new Creatomate.ScaleAnimation({
+            new Creatomate.Scale({
               easing: 'linear',
               scope: 'element',
               endScale: '130%',
@@ -53,7 +53,7 @@ const source = new Creatomate.Source({
           clip: true,
           source: 'https://creatomate-static.s3.amazonaws.com/demo/city2.jpg',
           animations: [
-            new Creatomate.ScaleAnimation({
+            new Creatomate.Scale({
               easing: 'linear',
               scope: 'element',
               startScale: '100%',
@@ -71,7 +71,7 @@ const source = new Creatomate.Source({
           clip: true,
           source: 'https://creatomate-static.s3.amazonaws.com/demo/city3.jpg',
           animations: [
-            new Creatomate.ScaleAnimation({
+            new Creatomate.Scale({
               easing: 'linear',
               scope: 'element',
               startScale: '100%',
@@ -93,7 +93,7 @@ const source = new Creatomate.Source({
           font: new Creatomate.Font('Cabin', 700),
           fillColor: '#ffffff',
           shadow: new Creatomate.Shadow('rgba(0,0,0,1)', 0, '0.5 vmin', '0.5 vmin'),
-          enter: new Creatomate.TextSlideAnimation({
+          enter: new Creatomate.TextSlide({
             time: 'start',
             duration: '1 s',
             easing: 'quadratic-out',
@@ -118,7 +118,7 @@ const source = new Creatomate.Source({
           font: new Creatomate.Font('Cabin', 400),
           fillColor: '#ffffff',
           background: new Creatomate.TextBackground('rgba(230,126,34,1)', '50%', '17%', '28%'),
-          enter: new Creatomate.TextRevealAnimation({
+          enter: new Creatomate.TextReveal({
             time: 'start',
             duration: '1 s',
             easing: 'quadratic-out',

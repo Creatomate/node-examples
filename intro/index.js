@@ -29,12 +29,12 @@ const source = new Creatomate.Source({
         new Creatomate.Text({
           width: '90%',
           height: '10%',
-          fill_color: '#fff',
           text: 'Your intro here',
           fontFamily: 'Cabin',
           fontWeight: '700',
           xAlignment: '50%',
           yAlignment: '50%',
+          fillColor: '#fff',
         }),
 
         // Place any other element here
@@ -50,7 +50,7 @@ const source = new Creatomate.Source({
       source: 'https://creatomate-static.s3.amazonaws.com/demo/video1.mp4',
 
       // Transition between the previous element (the intro composition) and this one
-      transition: new Creatomate.CircularWipeAnimation({
+      transition: new Creatomate.CircularWipe({
         duration: 0.5,
       }),
     }),
