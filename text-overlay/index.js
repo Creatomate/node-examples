@@ -11,6 +11,7 @@ const client = new Creatomate.Client(apiKey);
 
 const source = new Creatomate.Source({
   outputFormat: 'mp4',
+  frameRate: 60,
   emojiStyle: 'apple', // Choose between 'facebook', 'google', 'twitter' and 'apple'
 
   elements: [
@@ -20,31 +21,24 @@ const source = new Creatomate.Source({
     }),
 
     new Creatomate.Text({
-      y: '74%',
-      width: '92%',
-      height: '14%',
-      text: 'This text adjusts automatically to the resolution of the video.',
-      fontFamily: 'Dosis',
-      fontWeight: '600',
-      fontSizeMinimum: '5.8 vmin',
-      fillColor: '#fff',
-      background: new Creatomate.TextBackground('#000', '25%', '25%', '20%', '100%'),
-      xAlignment: '50%',
+      text: 'This text adjusts automatically to the size of the video. 🔥',
+      y: '75%',
+      width: '100%',
+      height: '50%',
+      xPadding: '5 vw',
+      yPadding: '5 vh',
       yAlignment: '100%',
-    }),
-
-    new Creatomate.Text({
-      y: '89%',
-      width: '92%',
-      height: '11%',
-      text: 'Facebook, Google, Twitter and Apple emojis are supported. 🙂✌️',
-      fontFamily: 'Dosis',
-      fontWeight: '600',
-      fontSizeMinimum: '5.8 vmin',
-      fillColor: '#000',
-      background: new Creatomate.TextBackground('#fff', '25%', '25%', '20%', '0%'),
-      xAlignment: '50%',
-      yAlignment: '50%',
+      font: new Creatomate.Font('Open Sans', 700),
+      fontSizeMaximum: '10.4 vmin',
+      background: new Creatomate.TextBackground('rgba(255,255,255,0.69)', '23%', '8%', '0%', '0%'),
+      fillColor: '#333333',
+      enter: new Creatomate.TextSlide({
+        duration: 2,
+        easing: 'quadratic-out',
+        split: 'line',
+        scope: 'element',
+        backgroundEffect: 'scaling-clip',
+      }),
     }),
 
   ],
