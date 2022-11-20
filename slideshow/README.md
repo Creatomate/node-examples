@@ -37,6 +37,8 @@ https://user-images.githubusercontent.com/44575638/199052679-a0889964-05ed-4688-
 
 - **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
 
+- **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**
+
 - **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
 
 - **[Blur the background of a video](https://github.com/creatomate/node-examples/tree/main/blur-background)**

@@ -1,12 +1,14 @@
-# Take a screenshot of a video
+# Auto-generate an explainer video with AWS Polly
 
-This example shows how to extract a screenshot from a video at a specific point. Alternatively, if you're rendering a video, you can take a snapshot: [Take a snapshot of a video](https://github.com/creatomate/node-examples/blob/main/video-snapshot)
+This example shows how to use AWS Polly to auto-generate an explainer video for YouTube, Instagram, or TikTok.
+
+Check out this article to get started: [Generate Text-to-Speech Video using Node.js and AWS Polly](https://creatomate.com/blog/generate-text-to-speech-video-using-node.js-and-aws-polly).
 
 ## How to run
 
 Clone this repository or open it in StackBlitz using the button below.
 
-[![Run on StackBlitz](https://user-images.githubusercontent.com/44575638/199058604-b6e5e08a-cdfd-451a-8ce9-ab7355b22786.svg)](https://stackblitz.com/github/creatomate/node-examples/tree/main/video-screenshot)
+[![Run on StackBlitz](https://user-images.githubusercontent.com/44575638/199058604-b6e5e08a-cdfd-451a-8ce9-ab7355b22786.svg)](https://stackblitz.com/github/creatomate/node-examples/tree/main/text-to-speech)
 
 ---
 
@@ -17,9 +19,11 @@ node index.js YOUR_API_KEY
 
 ## Example output
 
-![output](https://user-images.githubusercontent.com/44575638/199055474-63ff4879-8016-421e-b5d4-a8ae7e77c4ac.jpg)
+https://user-images.githubusercontent.com/44575638/202905711-7a09da85-1978-4655-99de-e029d865c56e.mp4
 
 ## Related examples
+
+- **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
 
 - **[Concatenate multiple videos](https://github.com/creatomate/node-examples/tree/main/concatenate)**
 
@@ -35,10 +39,6 @@ node index.js YOUR_API_KEY
 
 - **[Render a template](https://github.com/creatomate/node-examples/tree/main/template)**
 
-- **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
-
-- **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**
-
 - **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
 
 - **[Turn images into a video slideshow](https://github.com/creatomate/node-examples/tree/main/slideshow)**
@@ -52,6 +52,8 @@ node index.js YOUR_API_KEY
 - **[Add an outro scene to a video](https://github.com/creatomate/node-examples/tree/main/outro)**
 
 - **[Add an audio track to a video](https://github.com/creatomate/node-examples/tree/main/audio)**
+
+- **[Take a screenshot of a video](https://github.com/creatomate/node-examples/tree/main/video-screenshot)**
 
 - **[Take a snapshot of a video](https://github.com/creatomate/node-examples/tree/main/video-snapshot)**
 

@@ -2,6 +2,8 @@
 
 This example shows how to use AWS Polly to create a spoken video from a text string.
 
+Also take a look at this related example that includes video clips: [Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech).
+
 ## How to run
 
 Clone this repository or open it in StackBlitz using the button below.
@@ -20,6 +22,8 @@ node index.js YOUR_API_KEY
 https://user-images.githubusercontent.com/44575638/199048511-95b5e3d6-a76a-4cfb-b3a2-54c177401925.mp4
 
 ## Related examples
+
+- **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**
 
 - **[Concatenate multiple videos](https://github.com/creatomate/node-examples/tree/main/concatenate)**
 
