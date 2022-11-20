@@ -8,7 +8,7 @@ const promiseRetry = require('promise-retry');
 module.exports = async function transcribe(jobName, mediaUri, bucketName, bucketKey) {
 
   const transcribeClient = new TranscribeClient({
-    region: 'us-west-2',
+    region: 'us-west-1',
   });
 
   await transcribeClient.send(
