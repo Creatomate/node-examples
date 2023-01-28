@@ -1,12 +1,14 @@
-# Create a picture-in-picture video
+# Generate story videos for Instagram, YouTube, or TikTok
 
-This example shows how to overlay a video on top of another to create a picture-in-picture video.
+This example shows how to generate vertical storytelling video widely used on Instagram, YouTube, and TikTok.
+
+Check out this article to get started: [Use Node.js to Generate Instagram, YouTube, or TikTok Videos](https://creatomate.com/blog/use-nodejs-to-generate-instagram-youtube-or-tiktok-videos).
 
 ## How to run
 
 Clone this repository or open it in StackBlitz using the button below.
 
-[![Run on StackBlitz](https://user-images.githubusercontent.com/44575638/199058604-b6e5e08a-cdfd-451a-8ce9-ab7355b22786.svg)](https://stackblitz.com/github/creatomate/node-examples/tree/main/picture-in-picture)
+[![Run on StackBlitz](https://user-images.githubusercontent.com/44575638/199058604-b6e5e08a-cdfd-451a-8ce9-ab7355b22786.svg)](https://stackblitz.com/github/creatomate/node-examples/tree/main/story-video)
 
 ---
 
@@ -17,9 +19,13 @@ node index.js YOUR_API_KEY
 
 ## Example output
 
-https://user-images.githubusercontent.com/44575638/199051521-2d19ae79-0831-4974-9b7d-7410b50a90c2.mp4
+https://user-images.githubusercontent.com/44575638/215259554-e7317fca-b6bd-4dc9-9d81-34f7d47518be.mp4
 
 ## Related examples
+
+- **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
+
+- **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**
 
 - **[Concatenate multiple videos](https://github.com/creatomate/node-examples/tree/main/concatenate)**
 
@@ -34,12 +40,6 @@ https://user-images.githubusercontent.com/44575638/199051521-2d19ae79-0831-4974-
 - **[Transcode any video to MP4 (H.264)](https://github.com/creatomate/node-examples/tree/main/transcode)**
 
 - **[Render a template](https://github.com/creatomate/node-examples/tree/main/template)**
-
-- **[Generate story videos for Instagram, YouTube, or TikTok](https://github.com/creatomate/node-examples/tree/main/story-video)**
-
-- **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
-
-- **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**
 
 - **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
 
@@ -60,6 +60,8 @@ https://user-images.githubusercontent.com/44575638/199051521-2d19ae79-0831-4974-
 - **[Take a snapshot of a video](https://github.com/creatomate/node-examples/tree/main/video-snapshot)**
 
 - **[Convert a video to GIF](https://github.com/creatomate/node-examples/tree/main/video-to-gif)**
+
+- **[Create a picture-in-picture video](https://github.com/creatomate/node-examples/tree/main/picture-in-picture)**
 
 - **[Create a 2 by 2 video wall](https://github.com/creatomate/node-examples/tree/main/two-by-two)**
 

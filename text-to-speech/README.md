@@ -23,6 +23,8 @@ https://user-images.githubusercontent.com/44575638/202905711-7a09da85-1978-4655-
 
 ## Related examples
 
+- **[Generate story videos for Instagram, YouTube, or TikTok](https://github.com/creatomate/node-examples/tree/main/story-video)**
+
 - **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
 
 - **[Concatenate multiple videos](https://github.com/creatomate/node-examples/tree/main/concatenate)**

@@ -35,6 +35,8 @@ node index.js YOUR_API_KEY
 
 - **[Render a template](https://github.com/creatomate/node-examples/tree/main/template)**
 
+- **[Generate story videos for Instagram, YouTube, or TikTok](https://github.com/creatomate/node-examples/tree/main/story-video)**
+
 - **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
 
 - **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**
