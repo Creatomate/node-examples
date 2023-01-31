@@ -30,6 +30,7 @@ async function textToSpeech(text, i) {
     // TODO: Insert your S3 bucket here
     Bucket: 'Your S3 bucket',
     Key: `speech/part${i}.mp3`,
+    ContentType: 'audio/mpeg',
     ACL: 'public-read',
   }).promise();
 

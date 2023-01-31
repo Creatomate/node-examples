@@ -26,6 +26,7 @@ async function textToSpeech(text) {
     Body: speech.AudioStream,
     Bucket: 'text-to-speech-s3', // TODO: Insert your S3 bucket here
     Key: `${uuid.v4()}.mp3`,
+    ContentType: 'audio/mpeg',
     ACL: 'public-read',
   }).promise();
 
