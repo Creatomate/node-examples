@@ -43,6 +43,8 @@ https://user-images.githubusercontent.com/44575638/199046585-9fb799bc-610e-4576-
 
 - **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
 
+- **[Generate animated captions with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/captions)**
+
 - **[Turn images into a video slideshow](https://github.com/creatomate/node-examples/tree/main/slideshow)**
 
 - **[Blur the background of a video](https://github.com/creatomate/node-examples/tree/main/blur-background)**

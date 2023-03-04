@@ -23,6 +23,8 @@ https://user-images.githubusercontent.com/44575638/199048667-e9679a95-a720-4cf7-
 
 ## Related examples
 
+- **[Generate animated captions with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/captions)**
+
 - **[Concatenate multiple videos](https://github.com/creatomate/node-examples/tree/main/concatenate)**
 
 - **[Trim a video](https://github.com/creatomate/node-examples/tree/main/trim)**

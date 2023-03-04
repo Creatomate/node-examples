@@ -43,6 +43,8 @@ https://user-images.githubusercontent.com/44575638/199043018-70b3f305-cedd-4819-
 
 - **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
 
+- **[Generate animated captions with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/captions)**
+
 - **[Turn images into a video slideshow](https://github.com/creatomate/node-examples/tree/main/slideshow)**
 
 - **[Add a progress bar to a video](https://github.com/creatomate/node-examples/tree/main/progress-bar)**

@@ -1,12 +1,14 @@
-# Add a responsive overlay to a video
+# Generate animated captions with AWS Transcribe
 
-This example shows how an overlay can be created that adapts to multiple resolutions. Try different output resolutions to see the responsive overlay in action.
+This example shows how to add animated captions to a video with AWS Transcribe.
+
+Check out this article to get started: [Add Captions to Video using Node.js and AWS Transcribe](https://creatomate.com/blog/add-captions-to-video-using-node-js-and-aws-transcribe).
 
 ## How to run
 
 Clone this repository or open it in StackBlitz using the button below.
 
-[![Run on StackBlitz](https://user-images.githubusercontent.com/44575638/199058604-b6e5e08a-cdfd-451a-8ce9-ab7355b22786.svg)](https://stackblitz.com/github/creatomate/node-examples/tree/main/responsive-overlay)
+[![Run on StackBlitz](https://user-images.githubusercontent.com/44575638/199058604-b6e5e08a-cdfd-451a-8ce9-ab7355b22786.svg)](https://stackblitz.com/github/creatomate/node-examples/tree/main/captions)
 
 ---
 
@@ -17,13 +19,19 @@ node index.js YOUR_API_KEY
 
 ## Example output
 
-https://user-images.githubusercontent.com/44575638/199052063-e756850c-d474-4b60-9d42-d32707045c67.mp4
+The input video is courtesy of Shane Parrish of [The Knowledge Project](https://fs.blog/knowledge-project-podcast/).
+
+https://user-images.githubusercontent.com/44575638/222895792-87d40251-19ed-4f61-bf38-baad055871ff.mp4
 
 ## Related examples
+
+- **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
 
 - **[Concatenate multiple videos](https://github.com/creatomate/node-examples/tree/main/concatenate)**
 
 - **[Trim a video](https://github.com/creatomate/node-examples/tree/main/trim)**
+
+- **[Add a responsive overlay to a video](https://github.com/creatomate/node-examples/tree/main/responsive-overlay)**
 
 - **[Add a responsive watermark to a video](https://github.com/creatomate/node-examples/tree/main/watermark)**
 
@@ -38,10 +46,6 @@ https://user-images.githubusercontent.com/44575638/199052063-e756850c-d474-4b60-
 - **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
 
 - **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**
-
-- **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
-
-- **[Generate animated captions with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/captions)**
 
 - **[Turn images into a video slideshow](https://github.com/creatomate/node-examples/tree/main/slideshow)**
 
