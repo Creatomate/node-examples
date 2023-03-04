@@ -1,6 +1,6 @@
 const { GetObjectCommand, S3Client } = require('@aws-sdk/client-s3');
 
-module.exports = async function downloadS3File(bucketName, bucketKey) {
+async function downloadS3File(bucketName, bucketKey) {
 
   const s3Client = new S3Client({
     region: 'us-west-1',
@@ -18,4 +18,6 @@ module.exports = async function downloadS3File(bucketName, bucketKey) {
     });
 
   return await streamToString(data.Body);
-};
+}
+
+module.exports = downloadS3File;

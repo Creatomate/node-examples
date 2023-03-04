@@ -46,8 +46,6 @@ async function run() {
   const source = new Creatomate.Source({
     outputFormat: 'mp4',
 
-    duration: 3 * 60,
-
     elements: [
 
       new Creatomate.Video({

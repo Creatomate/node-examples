@@ -5,7 +5,7 @@ const {
 } = require('@aws-sdk/client-transcribe');
 const promiseRetry = require('promise-retry');
 
-module.exports = async function transcribe(jobName, mediaUri, bucketName, bucketKey) {
+async function transcribe(jobName, mediaUri, bucketName, bucketKey) {
 
   const transcribeClient = new TranscribeClient({
     region: 'us-west-1',
@@ -38,4 +38,6 @@ module.exports = async function transcribe(jobName, mediaUri, bucketName, bucket
     return response.TranscriptionJob;
 
   }, { minTimeout: 2000, forever: true });
-};
+}
+
+module.exports = transcribe;
