@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "creatomate": "^1.0.4",
+    "node-fetch": "^2.6.9"
+  }
+}
