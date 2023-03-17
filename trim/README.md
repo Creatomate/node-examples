@@ -35,6 +35,8 @@ https://user-images.githubusercontent.com/44575638/199055300-303eceb5-1c48-436b-
 
 - **[Generate story videos for Instagram, YouTube, or TikTok](https://github.com/creatomate/node-examples/tree/main/story-video)**
 
+- **[Auto-generate videos using ChatGPT](https://github.com/creatomate/node-examples/tree/main/chatgpt)**
+
 - **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
 
 - **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**

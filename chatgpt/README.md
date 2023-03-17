@@ -1,25 +1,31 @@
-# Turn images into a video slideshow
+# Auto-generate videos using ChatGPT
 
-This example shows how to make a video slideshow out of a collection of images with transitions in between.
+This example shows how to use ChatGPT to automatically generate videos.
+
+Check out this article to get started: [Using ChatGPT's API to Auto-Create Social Media Videos by Code](https://creatomate.com/blog/using-chatgpt-api-to-auto-create-social-media-videos-by-code).
 
 ## How to run
 
 Clone this repository or open it in StackBlitz using the button below.
 
-[![Run on StackBlitz](https://user-images.githubusercontent.com/44575638/199058604-b6e5e08a-cdfd-451a-8ce9-ab7355b22786.svg)](https://stackblitz.com/github/creatomate/node-examples/tree/main/slideshow)
+[![Run on StackBlitz](https://user-images.githubusercontent.com/44575638/199058604-b6e5e08a-cdfd-451a-8ce9-ab7355b22786.svg)](https://stackblitz.com/github/creatomate/node-examples/tree/main/chatgpt)
 
 ---
 
-Run the example using the following command, replacing `YOUR_API_KEY` with your Creatomate API key. You can find your API key in your account under [project settings](https://creatomate.com/docs/api/rest-api/authentication).
+Run the example using the following command, replacing `CREATOMATE_API_KEY` and `OPENAI_API_KEY` with your Creatomate and OpenAI API key. You can find your Creatomate API key in your account under [project settings](https://creatomate.com/docs/api/rest-api/authentication).
 ```bash
-node index.js YOUR_API_KEY
+node index.js CREATOMATE_API_KEY OPENAI_API_KEY
 ```
 
 ## Example output
 
-https://user-images.githubusercontent.com/44575638/199052679-a0889964-05ed-4688-a7a1-acf5a797e3f9.mp4
+https://user-images.githubusercontent.com/44575638/225856562-f42bfc99-99bd-4e19-83e0-88a63e88e227.mp4
 
 ## Related examples
+
+- **[Generate animated captions with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/captions)**
+
+- **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
 
 - **[Concatenate multiple videos](https://github.com/creatomate/node-examples/tree/main/concatenate)**
 
@@ -37,15 +43,11 @@ https://user-images.githubusercontent.com/44575638/199052679-a0889964-05ed-4688-
 
 - **[Generate story videos for Instagram, YouTube, or TikTok](https://github.com/creatomate/node-examples/tree/main/story-video)**
 
-- **[Auto-generate videos using ChatGPT](https://github.com/creatomate/node-examples/tree/main/chatgpt)**
-
 - **[Auto-generate a text-to-speech video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/aws-polly)**
 
 - **[Auto-generate an explainer video with AWS Polly](https://github.com/creatomate/node-examples/tree/main/text-to-speech)**
 
-- **[Generate subtitles with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/aws-transcribe)**
-
-- **[Generate animated captions with AWS Transcribe](https://github.com/creatomate/node-examples/tree/main/captions)**
+- **[Turn images into a video slideshow](https://github.com/creatomate/node-examples/tree/main/slideshow)**
 
 - **[Blur the background of a video](https://github.com/creatomate/node-examples/tree/main/blur-background)**
 
