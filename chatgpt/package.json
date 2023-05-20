@@ -3,7 +3,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "creatomate": "^1.0.4",
+    "creatomate": "latest",
     "node-fetch": "^2.6.9"
   }
 }

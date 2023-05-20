@@ -4,6 +4,6 @@
   },
   "dependencies": {
     "aws-sdk": "^2.1241.0",
-    "creatomate": "^1.0.4"
+    "creatomate": "latest"
   }
 }
