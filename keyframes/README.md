@@ -17,7 +17,7 @@ node index.js YOUR_API_KEY
 
 ## Example output
 
-https://user-images.githubusercontent.com/44575638/199050449-55bf49b2-bf4c-4bbe-a5d9-2b78774debc5.mp4
+https://github.com/Creatomate/node-examples/assets/44575638/c8a0cec4-6eb2-4120-b464-476b1af57bb4
 
 ## Related examples
 
