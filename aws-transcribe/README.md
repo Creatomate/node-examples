@@ -19,7 +19,7 @@ node index.js YOUR_API_KEY
 
 The input video is courtesy of Shane Parrish of [The Knowledge Project](https://fs.blog/knowledge-project-podcast/).
 
-https://user-images.githubusercontent.com/44575638/199048667-e9679a95-a720-4cf7-96de-65b7f89462cd.mp4
+https://github.com/Creatomate/node-examples/assets/44575638/d39553bf-64be-4b1a-93e0-a6195fcd46de
 
 ## Related examples
 
