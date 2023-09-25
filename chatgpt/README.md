@@ -19,7 +19,7 @@ node index.js CREATOMATE_API_KEY OPENAI_API_KEY
 
 ## Example output
 
-https://user-images.githubusercontent.com/44575638/225856562-f42bfc99-99bd-4e19-83e0-88a63e88e227.mp4
+https://github.com/Creatomate/node-examples/assets/44575638/9f249fa7-568a-439e-8216-b6eeae9e0c08
 
 ## Related examples
 
